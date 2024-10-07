@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+    width: 130px;
+    height: 130px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 15px 0 15px;
+}
+
+ul { 
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+ul li {
+    margin: 20px;
+}
+
+ul li a{ 
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+ul li a:hover {
+    color: darkgray;
+
+}
+header img {
+  max-width: 100%;
+  width: 100%;
+}
+
+header {
+    position: relative;
+}
+
+header .flexer {
+    position: absolute;
+    color: black;
+    padding: 30px;
+    top: 30%;
+    margin-top: 80px;
+}
+
+header .p1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+header .p2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+header .p2:hover {
+    font-size: 30px;
+    color: grey;
+}
+
+.request {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 23px;
+    position: absolute;
+}
+
+.request:hover {
+        color: grey;
+}
+
+.secy img {
+    width: 500px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+.secy {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0 45px 0;
+}
+
+.otherside h1 {
+    font-size: 40px;
+}
+
+.otherside h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.otherside p {
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.otherside a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    border: 3px solid black;
+    border-radius: 40px;
+    padding: 23px;
+    position: absolute;
+}
